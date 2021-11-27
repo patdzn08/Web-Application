@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content%}
+
+
+    <div class="card" style="align-items: center;">
+        <div class="card-body">   
+            <h1 align="center">L O G I N </h1>
+            <div class="content-section">
+                <form method="POST" action="">
+                    {{ form.hidden_tag() }}<br>
+                    {{ form.user_name }}<br><br>
+                    {{ form.user_pass }}<br><br>
+                    {{ form.submit }}
+                
+                </form>
+                <a href="/"> <button style= "width:200px"> Cancel </button></a>
+            </div>
+        </div>
+
+
+{% endblock %}
+
+
+

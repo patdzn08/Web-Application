@@ -1,0 +1,105 @@
+body {background-image: url(plant.jpg); background-repeat: no-repeat; background-size: 100%;}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url('static/img/plant.jpg');
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing:border-box;
+    position: relative ;
+   
+}
+.card{
+    width: 360px;
+    height: 350px; 
+    margin-left: 30%;
+    background-color: rgba(46, 165, 105, 0.698);
+    box-shadow: 0 4px 8px 0 rgb(5, 156, 106);}
+
+.navabout{
+    height: 150px;
+    width: 100%;
+    background-image: url('static/img/plant.jpg');
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing:border-box;
+    position: relative ;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  
+}
+.logo {
+    margin-top: 20px;
+    width: 100px;
+    cursor: pointer;
+
+}
+nav {
+    flex: 1;
+    padding-left: 60px;
+
+}
+
+nav ul li  {
+    display: inline-block;
+    list-style: none;
+    margin-top:  30px;
+    margin:  0px 20px;
+
+
+
+
+
+}
+nav ul li a {
+    text-decoration: none; 
+    color: navy;
+    
+    font-size: 24px;
+    margin-left: 15px;
+
+}
+.content h1{ 
+
+    font-size: 50px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+    color: navy;
+    
+}
+
+p {
+    margin-bottom: 30px;
+}
+.content .btn {
+    display:  inline-block;
+    background:  linear-gradient(45deg, #08c8f6 ,#4d5dfb);
+    border-radius:  6px;
+    padding: 10px 20px;
+    box-sizing:  border-box;
+    text-decoration:  none;
+    color:  black;
+    font-size: 18px;
+    width:  160px;
+    text-align: center;
+
+}
+
+.info .names{
+    font-size: 25px;
+    text-align: center;
+}
+
+.info .infos{
+    font-size: 20px;
+    text-align: center;
+}

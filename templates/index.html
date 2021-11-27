@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content%}
+
+{% if current_user.is_authenticated %}
+  Hi {{ current_user.user_name }}!
+{% endif %}
+
+<div  class="content">
+
+  <h1> Design of an Early Stress <br> Detection for Plants </h1>
+  <p>  Plant stress is a state where the plant is growing in non-ideal growth <br> conditions that increase the demands made upon it. The effects of stress <br> can lead to deficiencies in growth,   crop yields, permanent damage or death if the <br> stress exceeds the plant tolerance limits. Plant stress factors are mainly <br> categorized into two main groups; <b> abiotic factors and biotic factors.  </b> </p>
+
+  <a href="" class="btn">     More      </a>
+
+
+{% endblock%}
